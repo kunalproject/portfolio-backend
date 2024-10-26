@@ -2,7 +2,7 @@
   "name": "portfolio-backend",
   "version": "1.0.0",
   "description": "backend of portfolio website",
-  "main": "index.js",
+  "main": "server.js",
     "engines": {
      "node": "18.x"
   },
