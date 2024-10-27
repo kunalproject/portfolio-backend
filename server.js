@@ -5,6 +5,9 @@ require('dotenv').config();
 app.use(bodyparser.json());
 const db=require('./db.js')
 const User=require('./user.js')
+const cors = require('cors');
+app.use(cors());
+
 app.get('/',(req,res)=>{
     res.status(201).json({"msg":"its working fine"})
 })
